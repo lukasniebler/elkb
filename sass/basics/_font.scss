@@ -1,0 +1,41 @@
+@use "../variables/scalevar" as ratio;
+@use "../variables/fontvar" as font;
+
+//only set basic font declarations. No padding or margin in this file.
+* {
+    font-family: font.$font-stack-default;
+    font-size: font.$font-size-base;
+}
+
+h1 {
+    font-family: font.$font-stack-heading;
+    font-size: font.$font-size-h1;
+}
+
+h2 {
+    font-family: font.$font-stack-heading;
+    font-size: font.$font-size-h2;
+}
+
+h3 {
+    font-family: font.$font-stack-heading;
+    font-size: font.$font-size-h3;
+}
+
+h4 {
+    font-family: font.$font-stack-heading;
+    font-size: font.$font-size-h4;
+}
+h5 {
+    font-family: font.$font-stack-heading;
+    font-size: font.$font-size-h5;
+}
+
+h6 {
+    font-family: font.$font-stack-heading;
+    font-size: font.$font-size-h6;
+}
+
+p {
+    font-size: font.$font-size-base;
+}

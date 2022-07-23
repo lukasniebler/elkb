@@ -1,0 +1,12 @@
+@use './_scalevar' as ratio;
+$font-stack-default: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+$font-stack-heading: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+
+$font-size-base: calc(ratio.$s0 + 0.25vw);
+$font-size-h1: calc(ratio.$s5 + 0.25vw);
+$font-size-h2: calc(ratio.$s4 + 0.25vw);
+$font-size-h3: calc(ratio.$s3 + 0.25vw);
+$font-size-h4: calc(ratio.$s2 + 0.25vw);
+$font-size-h5: calc(ratio.$s1 + 0.25vw);
+$font-size-h6: calc(ratio.$s0 + 0.25vw);
+

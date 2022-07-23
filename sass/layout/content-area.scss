@@ -1,0 +1,20 @@
+@use "../variables/scalevar" as ratio;
+
+//create a wrapper
+.site-main {
+    padding: ratio.$s1;
+    border: var(--border-thin) solid;
+    --color-light: #fff;
+    --color-dark: #000;
+    color: var(--color-dark);
+    background-color: var(--color-light);
+
+    & * {
+        color: inherit;
+    }
+
+    &.invert {
+        color: var(--color-light);
+        background-color: var(--color-dark);
+    }
+}
